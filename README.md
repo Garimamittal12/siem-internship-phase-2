@@ -20,7 +20,7 @@ These tools simulate privilege escalation, lateral movement, credential dumping,
 
 The Phase 2 lab environment simulates real-world attacker activity on Linux systems, with logs collected and analyzed in Splunk Enterprise.
 
-text
+text'''
 +------------------------+        Log Forwarding         +---------------------------+
 |  Linux Host (Attacker) | ───────────────────────────▶ | Splunk Universal Forwarder |
 |  Tools: LinPEAS,       |                               | Configured to monitor:    |
@@ -40,7 +40,7 @@ text
 
 
 
-
+'''
 ### 🧰 Components
 
 - *Linux Hosts:*  
